@@ -72,12 +72,13 @@ This newly created user has the `Organization Administrator` role assigned to it
 ## Export channels from the RGS SUMA Server
 
 - View all the options for export with
-
- `inter-server-sync export -h`
+```
+ inter-server-sync export -h
+```
 - Select the `Parent` channels you wish to export.  Only select the needed channels - as it takes significant time for both export and import.  You can get a hierarchical list of these channels from the SUMA CLI with:
-
-`spacewalk-remove-channel -l`
-
+```
+spacewalk-remove-channel -l
+```
 - For initial export, there will be no date filter, it will get all channel information
 - Here is an example export command with two different `Parent` channels selected, and limiting it to the new Organization ID unit we created
 ```
