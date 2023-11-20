@@ -128,9 +128,8 @@ inter-server-sync export  \
 --packagesOnlyAfter=2023-11-01
 ```
 
-- The correlating import command is exactly the same as was used previously.
-
-On the customer SUMA server:
+- The correlating import command can be exactly the same as was used previously.
+On the customer SUMA server, mount this `updates` folder on `/media/import`, and run:
 
 ```
 inter-server-sync import \
