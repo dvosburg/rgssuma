@@ -45,7 +45,9 @@ First requirement is to have [SUSE Manager 4.3](https://www.suse.com/download/su
 
 - Requirement: Use SUSE Manager 4.3, updated with the latest packages
 - Install the `inter-server-sync` package on the server:
-	+ `zypper in inter-server-sync`
+```
+	zypper in inter-server-sync
+```
 - No credentials need to be added to this server - content will come from ISSv2
 
 ### Adding Organization for Sync process
