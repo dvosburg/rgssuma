@@ -11,7 +11,9 @@ Start with the latest SUSE Manager [SUSE Manager 4.3](https://www.suse.com/downl
 
 - Use SUSE Manager 4.3, updated with the latest packages
 - Install the `inter-server-sync` package on the server:
-	+ `zypper in inter-server-sync`
+```
+	zypper in inter-server-sync
+```
 - Provide SUSE Customer Center credentials
   - Log in to [SUSE Customer Center](https://scc.suse.com)
     - Go to `My Organization`, select your organization
